@@ -12,6 +12,7 @@ This module does two things, provides a fact that contains the `LastBootUpTime` 
 ### The Fact
 
 The module will have Windows machines generate two facts, one formatted datetime and one formatted raw. The generated fact is placed at `C:\ProgramData\PuppetLabs\facter\facts.d\lastbootuptime.json`.
+
 |name|value|
 |---|---|
 |lastbootuptime|10/15/2018 12:44:42 PM|
