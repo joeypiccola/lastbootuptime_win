@@ -1,0 +1,35 @@
+{
+  "name": "jpi-lastbootuptime_win",
+  "version": "0.1.0",
+  "author": "Joey Piccola",
+  "summary": "A fact and task for interacting with the last boot up time of a Windows machine.",
+  "license": "MIT",
+  "source": "https://github.com/joeypiccola/lastbootuptime_win",
+  "project_page": "https://github.com/joeypiccola/lastbootuptime_win",
+  "issues_url": "https://github.com/joeypiccola/lastbootuptime_win/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "7",
+        "2008",
+        "2008 R2",
+        "2012",
+        "2012 R2",
+        "2016"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.7.1",
+  "template-url": "file://C:/Program Files/Puppet Labs/DevelopmentKit/share/cache/pdk-templates.git",
+  "template-ref": "1.7.1-0-g810b982"
+}
