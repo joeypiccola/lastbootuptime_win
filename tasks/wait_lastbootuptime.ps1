@@ -27,7 +27,7 @@ Function Get-PuppetNodeFact {
     $hoststr = "https://$master`:8081/pdb/query/v4/nodes/$node/facts/$Fact"
     $headers = @{'X-Authentication' = $Token}
 
-    $result = Invoke-WebRequest -Uri $hoststr -Method Get -Headers $headers
+    $result = Invoke-WebRequest -Uri $hoststr -Method Get -Headers $headers -UseBasicParsing
     $content = $result.content | ConvertFrom-Json
 
     Write-Output $content.value
