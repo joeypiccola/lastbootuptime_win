@@ -20,4 +20,4 @@ The module will have Windows machines generate two facts, one formatted datetime
 
 ### The Task
 
-The task queries the PuppetDB Nodes endpoint API and monitors for when the LastBootUpTime fact for a specific node changes. This task should be executed on a Windows machine running PowerShell v5 or greater.
+The task queries the PuppetDB Nodes endpoint API and monitors for when the LastBootUpTime fact for a specific node changes. This task should be executed on a Windows machine running PowerShell v5 or greater and should be able to access the Puppet master on TCP/8081.
