@@ -5,7 +5,7 @@
     "parameters": {
         "timeout": {
             "description": "How long to wait in seconds for the system to post an updated last boot up time before exiting with 1.",
-            "type": "[Optional]Integer"
+            "type": "Optional[Integer]"
         },
         "puppetdbapitoken": {
             "description": "The PuppetDB API token used to query node facts.",
